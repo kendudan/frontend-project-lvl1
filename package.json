@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "project brain games",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendudan/frontend-project-lvl1.git"
+  },
+  "author": "ann dudek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kendudan/frontend-project-lvl1/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/kendudan/frontend-project-lvl1#readme"
+}
