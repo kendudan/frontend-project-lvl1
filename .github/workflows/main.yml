@@ -33,6 +33,8 @@ jobs:
         # The Node.js version to configure
         with:
           node-version: ${{ matrix.node-version }}
-      # Runs a single command using the runners shell
+      - name: npm install
+        # Install project
+        run: make install
       - name: Run Linter
         run: make lint
