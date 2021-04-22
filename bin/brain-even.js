@@ -3,9 +3,7 @@
 import readlineSync from 'readline-sync';
 import userName from '../src/cli.js';
 
-const getRandomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min)) + min;
-};
+const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let correctAnswer = 0;
@@ -26,10 +24,10 @@ while (correctAnswer < 3) {
     console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.\n Let's try again, ${userName}!`);
     break;
   } else {
-    console.log (`${userAnswer} is wrong answer ;(. \n Let's try again, ${userName}!`);
+    console.log(`${userAnswer} is wrong answer ;(. \n Let's try again, ${userName}!`);
     break;
   }
 }
 if (correctAnswer === 3) {
   console.log(`Congratulations, ${userName}!`);
-};
+}
