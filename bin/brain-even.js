@@ -10,26 +10,26 @@ const getRandomInt = (min, max) => {
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let correctAnswer = 0;
 while (correctAnswer < 3) {
-	const showInt = getRandomInt(1, 50);
-	console.log(`Question:${showInt}`);
-	const userAnswer = readlineSync.question('Your answer: ');
-	if (userAnswer === 'yes' && showInt % 2 === 0) {
-		console.log('Correct!');
-		correctAnswer += 1;
-	} else if (userAnswer === 'yes' && showInt % 2 !== 0) {
-		console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\n Let's try again, ${userName}!`);
-		break;
-	}else if (userAnswer === 'no' && showInt % 2 !== 0) {
-		console.log('Correct!');
-		correctAnswer += 1;
-	} else if (userAnswer === 'no' && showInt % 2 === 0) {
-		console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.\n Let's try again, ${userName}!`);
-		break;
-	} else {
-		console.log (`${userAnswer} is wrong answer ;(. \n Let's try again, ${userName}!`);
-		break;
-	}
+  const showInt = getRandomInt(1, 50);
+  console.log(`Question:${showInt}`);
+  const userAnswer = readlineSync.question('Your answer: ');
+  if (userAnswer === 'yes' && showInt % 2 === 0) {
+    console.log('Correct!');
+    correctAnswer += 1;
+  } else if (userAnswer === 'yes' && showInt % 2 !== 0) {
+    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\n Let's try again, ${userName}!`);
+    break;
+  } else if (userAnswer === 'no' && showInt % 2 !== 0) {
+    console.log('Correct!');
+    correctAnswer += 1;
+  } else if (userAnswer === 'no' && showInt % 2 === 0) {
+    console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.\n Let's try again, ${userName}!`);
+    break;
+  } else {
+    console.log (`${userAnswer} is wrong answer ;(. \n Let's try again, ${userName}!`);
+    break;
+  }
 }
 if (correctAnswer === 3) {
-	console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
