@@ -4,7 +4,8 @@
   "description": "project brain games",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc"
   },
   "main": "index.js",
   "scripts": {
