@@ -2,8 +2,7 @@
 
 import readlineSync from 'readline-sync';
 import userName from '../src/cli.js';
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+import getRandomInt from '../src/randomInt.js';
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let correctAnswer = 0;
