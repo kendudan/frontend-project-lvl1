@@ -34,8 +34,6 @@ while (correctAnswer < 3) {
     default:
       break;
   }
-  console.log(typeof (answer));
-  console.log(typeof (userAnswer));
 
   if (userAnswer === answer.toString()) {
     console.log('Correct');
