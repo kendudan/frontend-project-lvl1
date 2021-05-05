@@ -4,3 +4,4 @@
 ![Workflow status](https://github.com/kendudan/frontend-project-lvl1/actions/workflows/main.yml/badge.svg)
 
 https://asciinema.org/a/RGulhh8y1EBFpNJwy9aF1ZA2C
+https://asciinema.org/a/eABLNdLdbBB3q219erws5DXyl
