@@ -5,7 +5,7 @@ const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const game = () => {
   const showInt = getRandomInt(1, 50);
-  console.log(`Question:${showInt}`);
+  console.log(`Question: ${showInt}`);
   const userAnswer = readlineSync.question('Your answer: ');
   switch (userAnswer) {
     case 'yes':
